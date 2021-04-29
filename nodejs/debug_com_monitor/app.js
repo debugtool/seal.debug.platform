@@ -5,7 +5,8 @@ const ctx = require('./ut/modbus-server-0000.js');
 // --------------------------------------------------------------------------------
 // SERIAL PORT
 // --------------------------------------------------------------------------------
-const DEBUG_PORT = "/dev/ttyUSB0";
+//const DEBUG_PORT = "/dev/ttyUSB0";
+const DEBUG_PORT = "COM3";
 const SerialPort = require('serialport');
 const Readline = require('@serialport/parser-readline');
 const port = new SerialPort(DEBUG_PORT, {baudRate: 115200});
