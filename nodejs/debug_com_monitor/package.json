@@ -1,0 +1,16 @@
+{
+  "name": "debug-monitor",
+  "version": "1.0.0",
+  "description": "Seneca Debug Monitor: read from DEBUG COM and run test app",
+  "main": "app.js",
+  "dependencies": {
+    "jsmodbus": "^4.0.5",
+    "serialport": "^9.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node app.js"
+  },
+  "author": "FCO",
+  "license": "ISC"
+}
